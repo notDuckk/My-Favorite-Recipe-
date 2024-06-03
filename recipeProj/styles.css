@@ -1,0 +1,159 @@
+/* ALL PAGES */
+body {
+    
+     background-color: #D7AD8E
+     /* background: #0F2027;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
+
+}
+/* For title in index page */
+.index {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: black;
+}
+
+#peppizza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ordered list in Directions Page */
+ol li {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* For title in directions page */
+.Directions {
+    font-family: 'Courier New', Courier, monospace;
+    color: black
+    ;
+    
+}
+
+#direcPage {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/* anchor tag colors */
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* For title in ingredients page */
+.Ingredients {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 2em;
+}
+/* unordered list in ingredient page */
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+/* styling for a div in directions page */
+#steps{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    padding: 5px;
+    color: black ;
+    border-bottom: solid;
+    border-color: black
+    ;
+    height: 30px;
+    width: 256px;
+}
+/* setting the page to make the nutrition table fit on the right. */
+#bodydirect {
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    float: left;
+    justify-content: center;
+
+}
+/* setting the nutrition table on the right */
+#nuttable{
+    margin: 0 auto;
+    display: flex;
+    background-color: #8EB8D7
+
+    ;
+    border: 2px inset black;
+    align-items: center;
+    
+}
+
+#nuttable th,#nuttable td{
+    border: 2px inset black;
+}
+
+#selectform {
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    margin:auto
+    
+}
+
+#contact1 {
+    display: flex;
+    
+    justify-content: center;
+    color: black;
+}
+
+#comment {
+    
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin:auto
+}
+
+#bttn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    padding: 5px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+nav a{
+    padding-right: 15px;
+}
+
+
+nav a:hover {
+    background-color:#8EB8D7;
+}
+
+@media (max-width: 600px) {
+    #selectform {
+        flex-direction: column;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+  
+}
+
+
